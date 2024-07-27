@@ -189,7 +189,7 @@ export default function App() {
           </div>
         </div>
 
-        <footer className="bg-[url('./assets/red.png')] h-[50vh] flex flex-col items-center justify-center">
+        <footer className="bg-[url('./assets/red.png')] h-[25vh] d:h-[50vh] flex flex-col items-center justify-center">
           <h1 className="text-4xl font-vogue">DIIIGDAYA</h1>
         </footer>
         <div className="flex justify-between bg-black opacity-60 text-white">
