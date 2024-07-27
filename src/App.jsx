@@ -40,14 +40,14 @@ export default function App() {
       </a>
       <div className="bg-black">
         <div className="flex gap-6 justify-between absolute top-0 left-1/2 transform -translate-x-1/2 items-center mt-5">
-          <a className="underline hidden text-sm md:block text-white">ABOUT</a>
-          <a className="underline hidden text-sm md:block text-white">DIIIGDAYA</a>
+          <a className="underline hidden md:block text-white font-inter">ABOUT</a>
+          <a className="underline hidden md:block text-white font-inter">DIIIGDAYA</a>
           <h1 className="flex flex-col items-center text-2xl md:text-3xl text-white tracking-tighter font-vogue">
             <img src={borderwhite} className="w-10" />
             LAZE
           </h1>
-          <a className="underline hidden md:block text-white" href="#maestro">MAESTRO</a>
-          <a className="underline hidden md:block text-white">TOUR</a>
+          <a className="underline hidden md:block text-white font-inter" href="#maestro">MAESTRO</a>
+          <a className="underline hidden md:block text-white font-inter">TOUR</a>
         </div>
         <div className="bg-[url('./assets/header.png')] bg-cover bg-center w-full h-screen flex justify-center items-center">
           <img src={diiigdaya} className="w-64 mix-blend-screen" />
@@ -74,7 +74,7 @@ export default function App() {
         </div>
         <div className="bg-gradient-to-b from-black to-black" id="maestro">
           <div className="h-screen bg-[url('./assets/noisy-gradients.png')] bg-cover bg-center flex flex-col items-center justify-center opacity-60">
-            <h1 className="text-white text-2xl tracking-tight">THE MAESTRO</h1>
+            <h1 className="text-white text-2xl tracking-tight font-inter">THE MAESTRO</h1>
             <img src={maestro} className="w-[40em]" />
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function App() {
 
           <div className="flex flex-col items-center justify-center text-white my-10 gap-16">
             <img src={border} />
-            <div className="w-8/12 md:w-5/12 text-center space-y-11">
+            <div className="w-8/12 md:w-5/12 text-center space-y-11 font-inter">
               <p className="text-xl md:text-2xl font-inter tracking-tighter">
                 DIGDAYA merupakan album rap bahasa Indonesia ketiga Laze, di
                 dalam kamus DIGDAYA berarti sakti atau tidak terkalahkan.
@@ -160,13 +160,13 @@ export default function App() {
             <div className="flex flex-col items-start gap-4">
               <img src={diiigdaya} className="mix-blend-screen w-32 md:w-40" />
 
-              <div className="-space-y-1">
+              <div className="-space-y-1 font-inter">
                 <h1 className="text-lg md:text-2xl text-white">OUT NOW</h1>
                 <h1 className="text-lg md:text-5xl text-white">27.10.2023</h1>
               </div>
             </div>
 
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 font-inter">
               <a
                 href="#"
                 className="flex items-center gap-3 bg-[#DE0100] p-3 text-lg tracking-tight hover:bg-transparent hover:text-red border border-red"
@@ -192,7 +192,7 @@ export default function App() {
         <footer className="bg-[url('./assets/red.png')] h-[25vh] d:h-[50vh] flex flex-col items-center justify-center">
           <h1 className="text-4xl font-vogue">DIIIGDAYA</h1>
         </footer>
-        <div className="flex justify-between bg-black opacity-60 text-white">
+        <div className="flex justify-between bg-black opacity-60 text-white font-inter">
           <p className="text-xs font-inter tracking-tight">@VIRDIOSAM</p>
           <p className="text-xs">
             Images are used with respect to the owner's rights
