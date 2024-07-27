@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Vogue';
+  src: url('./src/assets/Vogue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{font-family: 'Inter'}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee {
+  animation: marquee 15s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
