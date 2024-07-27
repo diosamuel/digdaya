@@ -13,6 +13,23 @@ import arrow from "./assets/arrow.png";
 
 export default function App() {
   let images = [digdayacard,digdayacard,digdayacard,digdayacard,digdayacard,digdayacard]
+
+  const tracks = [
+  "TRACK 1 - TIPU DIRI",
+  "TRACK 2 - PORSI CURAH (FT AYUB JONN)",
+  "TRACK 3 - TANPA PERAYAAN (FT DZULFAHMI & RANDSLAM)",
+  "TRACK 4 - BELATI BELATI",
+  "TRACK 5 - KEBAL EJEKAN",
+  "TRACK 6 - MERAH MUDA BIRU (FT. LIAM AMADEO)",
+  "TRACK 7 - MENCIPTAKAN HENING (FT. AKARA)",
+  "TRACK 8 - KABUR (INTERLUDE)",
+  "TRACK 9 - DI PINGGIR JURANG (FT. WICHIGO SHAWTY)",
+  "TRACK 10 - YANG LEBIH",
+  "TRACK 11 - GEPPETTO",
+  "TRACK 12 - TABAH/GUBAHANKU",
+  "TRACK 13 - DIGDAYA (FT. LIAM AMADEO)"
+];
+
   return (
     <>
       <a
@@ -87,13 +104,13 @@ export default function App() {
 
             <div className="flex flex-col-reverse md:flex-row justify-between items-start gap-10 mx-5">
               <div className="text-white w-full">
-                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((song, i) => (
+                {tracks.map((song, i) => (
                   <div
                     key={i}
-                    className="flex w-full justify-between items-center py-3 border-b-2"
+                    className="flex w-full justify-between items-center py-3 border-b"
                   >
                     <p className="uppercase font-vogue text-xl">
-                      TRACK {i + 1} - Tipu diri
+                      {song}
                     </p>
                     <button className="rounded-full px-4 border py-2">
                       PLAY
