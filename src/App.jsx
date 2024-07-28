@@ -40,14 +40,14 @@ export default function App() {
       </a>
       <div className="bg-black">
         <div className="flex gap-6 justify-between absolute top-0 left-1/2 transform -translate-x-1/2 items-center mt-5">
-          <a className="underline hidden md:block text-white font-inter">ABOUT</a>
-          <a className="underline hidden md:block text-white font-inter">DIIIGDAYA</a>
+          <a href="https://www.instagram.com/laze92_/" className="underline hidden md:block text-white font-inter">ABOUT</a>
+          <a className="underline hidden md:block text-white font-inter" href="https://open.spotify.com/album/2r3AwVlmIcZrdrzUc0ub4C">DIIIGDAYA</a>
           <h1 className="flex flex-col items-center text-2xl md:text-3xl text-white tracking-tighter font-vogue">
             <img src={borderwhite} className="w-10" />
             LAZE
           </h1>
-          <a className="underline hidden md:block text-white font-inter" href="#maestro">MAESTRO</a>
-          <a className="underline hidden md:block text-white font-inter">TOUR</a>
+          <a className="underline hidden md:block text-white font-inter" href="https://www.instagram.com/laze92_/">MAESTRO</a>
+          <a className="underline hidden md:block text-white font-inter" href="https://linktr.ee/preachja">TOUR</a>
         </div>
         <div className="bg-[url('./assets/header.png')] bg-cover bg-center w-full h-screen flex justify-center items-center">
           <img src={diiigdaya} className="w-64 mix-blend-screen" />
@@ -112,9 +112,9 @@ export default function App() {
                     <p className="uppercase font-vogue text-xl">
                       {song}
                     </p>
-                    <button className="rounded-full px-4 border py-2">
+                    <a href="https://open.spotify.com/album/2r3AwVlmIcZrdrzUc0ub4C" className="rounded-full px-4 border py-2">
                       PLAY
-                    </button>
+                    </a>
                   </div>
                 ))}
               </div>
@@ -168,19 +168,19 @@ export default function App() {
 
             <div className="flex flex-col gap-3 font-inter">
               <a
-                href="#"
+                href="https://open.spotify.com/album/2r3AwVlmIcZrdrzUc0ub4C"
                 className="flex items-center gap-3 bg-[#DE0100] p-3 text-lg tracking-tight hover:bg-transparent hover:text-red border border-red"
               >
                 SPOTIFY <img src={arrow} className="w-4" />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/playlist?list=PL-PauKtmPUNV8E4XcG1--FoTvA9F01eXB"
                 className="flex items-center gap-3 bg-[#DE0100] p-3 text-lg tracking-tight hover:bg-transparent hover:text-red border border-red"
               >
                 YOUTUBE <img src={arrow} className="w-4" />
               </a>
               <a
-                href="#"
+                href="https://linktr.ee/preachja"
                 className="flex items-center gap-3 bg-[#DE0100] p-3 text-lg tracking-tight hover:bg-transparent hover:text-red border border-red"
               >
                 TOUR <img src={arrow} className="w-4" />
