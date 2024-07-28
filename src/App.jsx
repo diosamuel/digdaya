@@ -112,7 +112,7 @@ export default function App() {
                     <p className="uppercase font-vogue text-xl">
                       {song}
                     </p>
-                    <a href="https://open.spotify.com/album/2r3AwVlmIcZrdrzUc0ub4C" className="rounded-full px-4 border py-2">
+                    <a href="https://open.spotify.com/album/2r3AwVlmIcZrdrzUc0ub4C" className="rounded-full px-4 border py-2 hover:bg-red hover:text-black hover:border-black transition-all">
                       PLAY
                     </a>
                   </div>
@@ -125,6 +125,7 @@ export default function App() {
                   className="w-[40em] hover:opacity-60 transition"
                   alt="Album cover"
                 />
+                {/*<iframe src="https://open.spotify.com/embed/album/2r3AwVlmIcZrdrzUc0ub4C?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>*/}
               </div>
             </div>
 
@@ -190,7 +191,7 @@ export default function App() {
         </div>
 
         <footer className="bg-[url('./assets/red.png')] h-[25vh] d:h-[50vh] flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-vogue">DIIIGDAYA</h1>
+          <h1 className="text-4xl font-vogue hover:-rotate-12 hover:text-5xl transition-all">DIIIGDAYA!</h1>
         </footer>
         <div className="flex justify-between bg-black opacity-60 text-white font-inter p-2">
           <a href="https://www.instagram.com/virdiosam/" className="text-xs font-inter tracking-tight">@VIRDIOSAM</a>
