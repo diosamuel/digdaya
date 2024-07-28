@@ -195,7 +195,7 @@ export default function App() {
         </footer>
         <div className="flex justify-between bg-black opacity-60 text-white font-inter p-2">
           <a href="https://www.instagram.com/virdiosam/" className="text-xs font-inter tracking-tight">@VIRDIOSAM</a>
-          <p className="text-xs">
+          <p className="text-[10px]">
             Images are used with respect to the owner's rights, DIGDAYA!
           </p>
         </div>
