@@ -75,7 +75,7 @@ export default function App() {
         <div className="bg-gradient-to-b from-black to-black" id="maestro">
           <div className="h-screen bg-[url('./assets/noisy-gradients.png')] bg-cover bg-center flex flex-col items-center justify-center opacity-60">
             <h1 className="text-white text-2xl tracking-tight font-inter">THE MAESTRO</h1>
-            <img src={maestro} className="w-[40em]" />
+            <img src={maestro} className="w-[40em] hover:-translate-y-1 transition-all" />
           </div>
         </div>
 
@@ -153,12 +153,12 @@ export default function App() {
           </div>
         </div>
 
-        <div className="md:mx-10 my-5">
+        <div className="md:mx-10">
           <div
             className={`w-full bg-[url("./assets/cta.png")] flex items-end justify-between p-10`}
           >
             <div className="flex flex-col items-start gap-4">
-              <img src={diiigdaya} className="mix-blend-screen w-32 md:w-40" />
+              <img src={diiigdaya} className="mix-blend-screen w-32 md:w-56" />
 
               <div className="-space-y-1 font-inter">
                 <h1 className="text-lg md:text-2xl text-white">OUT NOW</h1>
@@ -192,10 +192,10 @@ export default function App() {
         <footer className="bg-[url('./assets/red.png')] h-[25vh] d:h-[50vh] flex flex-col items-center justify-center">
           <h1 className="text-4xl font-vogue">DIIIGDAYA</h1>
         </footer>
-        <div className="flex justify-between bg-black opacity-60 text-white font-inter">
-          <p className="text-xs font-inter tracking-tight">@VIRDIOSAM</p>
+        <div className="flex justify-between bg-black opacity-60 text-white font-inter p-2">
+          <a href="https://www.instagram.com/virdiosam/" className="text-xs font-inter tracking-tight">@VIRDIOSAM</a>
           <p className="text-xs">
-            Images are used with respect to the owner's rights
+            Images are used with respect to the owner's rights, DIGDAYA!
           </p>
         </div>
       </div>
